@@ -1,9 +1,10 @@
 import React from "react";
 
 function Welcome(props) {
+  var { name, age } = props;
   return (
     <>
-      <h1>hey! {props.name}</h1>
+      <h1>Hey !{name}</h1>
       <h2>"Welcome to Newton School."</h2>
     </>
   );
